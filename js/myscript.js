@@ -73,25 +73,25 @@ $('#img4').html('<img src=' + persons[3].myPhoto + ' width="100%">');
 
 
 //HIER  ARE  THE  LIKES 
-var click = 0; 
+var click = persons[0].likes; 
 $("#like1").click(function() { 
 	click++; 
 	$('#l1').html(click);
 });
 
-var like = 0; 
+var like = persons[1].likes; 
 $("#like2").click(function() { 
 	like++; 
 	$('#l2').html(like);
 });
 
-var gef = 0;
+var gef = persons[2].likes;
 $("#like3").click(function() { 
 	gef++; 
 	$('#l3').html(gef);
 });
 
-var likes = 0;
+var likes = persons[3].likes;
 $("#like4").click(function() { 
 	likes++; 
 	$('#l4').html(likes);
